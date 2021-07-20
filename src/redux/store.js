@@ -4,7 +4,11 @@ import { persistStore } from 'redux-persist'; // lets the browser cash the store
 
 import rootReducer from './root-reducer';
 
-const middlewares = [logger]; // an Array of "console.logs"
+const middlewares = []; // an Array of "console.logs"
+
+if (process.env.NODE_ENV === 'development') {
+	middlewares.push(logger);	// middlewate "loger" will not be in included production build
+}
 
 // const store = createStore(rootReducer, applyMiddleware(logger));  --> when there is only one middleware in project
 export const store = createStore(rootReducer, applyMiddleware(...middlewares)); // "applyMiddleware(...middlewares)" spreads combined middleware into single logs
