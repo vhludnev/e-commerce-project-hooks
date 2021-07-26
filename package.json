@@ -1,5 +1,5 @@
 {
-  "name": "e-commerce-project-clothing",
+  "name": "e-commerce-project-clothing-hooks",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +14,8 @@
     "redux": "^4.1.0",
     "redux-logger": "^3.0.6",
     "redux-persist": "^6.0.0",
-    "reselect": "^4.0.0"
+    "reselect": "^4.0.0",
+    "styled-components": "^5.3.0"
   },
   "devDependencies": {
     "react-scripts": "4.0.3"
