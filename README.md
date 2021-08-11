@@ -9,6 +9,5 @@
 - Sass,
 - Responsive display
 - Login Authentication: Firebase Auth
-- Backend: Firebase Firestore
 
-[Check on Heroku](https://yourhat-store.herokuapp.com/)
+[Check on Firebase Page](https://e-commerce-22.firebaseapp.com/)
