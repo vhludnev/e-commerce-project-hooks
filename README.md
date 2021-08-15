@@ -1,4 +1,4 @@
-# E-Commerce website build with React Hooks 
+## E-Commerce website build with React Hooks 
 
 - React,
 - React Hooks
@@ -7,7 +7,8 @@
 - Stripe,
 - Spinner,
 - Sass,
-- Responsive display
+- Responsive display,
+- PWA,
 - Login Authentication: Firebase Auth
 
 [Check on Firebase Page](https://e-commerce-22.firebaseapp.com/)

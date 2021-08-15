@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import CartProvider from './providers/cart/cart.provider';
 
 import './index.css';
@@ -15,3 +15,5 @@ ReactDOM.render(
 	</CartProvider>, 
 	document.getElementById('root')
 );
+
+serviceWorkerRegistration.register();
