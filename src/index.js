@@ -9,9 +9,9 @@ import App from './App';
 
 ReactDOM.render(
 	<CartProvider>
-			<BrowserRouter>
-					<App />
-			</BrowserRouter>
+		<BrowserRouter>
+			<App />
+		</BrowserRouter>
 	</CartProvider>, 
 	document.getElementById('root')
 );

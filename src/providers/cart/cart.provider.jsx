@@ -30,12 +30,12 @@ const CartProvider = ({ children }) => {
 	const toggleHidden = () => setHidden(!hidden);
 	const clearItemFromCart = item => setCartItems(filterItemFromCart(cartItems, item));
 
-  useEffect(() => {
+	useEffect(() => {
 		setCartItemsCount(getCartItemsCount(cartItems));
 		setCartTotal(getCartTotal(cartItems));
-  }, [cartItems]);
+	}, [cartItems]);
 
-  return (
+	return (
 		<CartContext.Provider
 			value={{
 				hidden,
