@@ -12,4 +12,4 @@
 - Database: Firebase Firestore,
 - Login Authentication: Firebase Auth
 
-[Check life](https://e-commerce-22.firebaseapp.com/)
+[Check live](https://e-commerce-22.firebaseapp.com/)
